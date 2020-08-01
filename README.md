@@ -18,6 +18,8 @@ rename a file
 `git mv hoge.c hoge_renamed.c`  
 remove a file  
 `git rm hoge.c`  
+delete git added history of all files  
+`git rm --cached -r .`  
 
 ## Docker Command
 
