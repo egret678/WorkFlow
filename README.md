@@ -10,7 +10,7 @@ commit and write commit message
 `git commit -m "create the first program"`  
 confirm a commit log  
 `git log -p`  
-create a new repository(user: egret678, repository name: 9cc) and add it as a remote repository  
+add a new repository(user: egret678, repository name: 9cc) as a remote repository  
 `git remote add origin https://github.com/egret678/9cc.git`  
 push the local repository to remote repository in GitHub  
 `git push -u origin master`  
