@@ -14,6 +14,10 @@ add a new repository(user: egret678, repository name: 9cc) as a remote repositor
 `git remote add origin https://github.com/egret678/9cc.git`  
 push the local repository to remote repository in GitHub  
 `git push -u origin master`  
+rename a file  
+`git mv hoge.c hoge_renamed.c`
+remove a file  
+`git rm hoge.c`
 
 ## Docker Command
 
