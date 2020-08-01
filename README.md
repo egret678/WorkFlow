@@ -15,9 +15,9 @@ add a new repository(user: egret678, repository name: 9cc) as a remote repositor
 push the local repository to remote repository in GitHub  
 `git push -u origin master`  
 rename a file  
-`git mv hoge.c hoge_renamed.c`
+`git mv hoge.c hoge_renamed.c`  
 remove a file  
-`git rm hoge.c`
+`git rm hoge.c`  
 
 ## Docker Command
 
@@ -26,6 +26,6 @@ confirm docker version
 create a docker image named compilerbook  
 `docker build -t compilerbook https://www.sigbus.info/compilerbook/Dockerfile`
 use compilerbook image on interacitive mode  
-`docker run --rm -it -v $HOME/C++/compiler/9cc:/9cc compilerbook`
+`docker run --rm -it -v $HOME/C++/compiler/9cc:/9cc compilerbook`  
 display all suspended images  
-`docker container ls -a`
+`docker container ls -a`  
