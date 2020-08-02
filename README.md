@@ -20,13 +20,15 @@ remove a file
 `git rm hoge.c`  
 delete git added history of all files  
 `git rm --cached -r .`  
+`git reset --mixed HEAD`  
+`git reset --soft HEAD^`  
 
 ## Docker Command
 
 confirm docker version  
 `docker version`
 create a docker image named compilerbook  
-`docker build -t compilerbook https://www.sigbus.info/compilerbook/Dockerfile`
+`docker build -t compilerbook https://www.sigbus.info/compilerbook/Dockerfile`  
 use compilerbook image on interacitive mode  
 `docker run --rm -it -v $HOME/C++/compiler/9cc:/9cc compilerbook`  
 display all suspended images  
