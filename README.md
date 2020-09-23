@@ -1,8 +1,13 @@
 # Memo
 
+## Command Line
+
+* copy a file
+`copy source dest`
+
 ## Git Command Flow
 
-create a git repository  
+* create a git repository
 `git init`  
 add the created files to repository  
 `git add hoge.c`  
@@ -21,6 +26,7 @@ remove a file
 delete git added history of all files  
 `git rm --cached -r .`  
 `git reset --mixed HEAD`  
+return last commit to index
 `git reset --soft HEAD^`  
 
 ## Docker Command
