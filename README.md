@@ -26,7 +26,7 @@ remove a file
 delete git added history of all files  
 `git rm --cached -r .`  
 `git reset --mixed HEAD`  
-return last commit to index
+return last commit to index  
 `git reset --soft HEAD^`  
 
 ## Docker Command
